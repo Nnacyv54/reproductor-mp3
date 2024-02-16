@@ -1,0 +1,20 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.player-container {
+    text-align: center;
+}
+
+#playPauseBtn,
+#stopBtn,
+#prevBtn,
+#nextBtn,
+#repeatBtn,
+#shuffleBtn {
+    margin-top: 10px;
+}

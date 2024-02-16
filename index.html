@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reproductor MP3</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="player-container">
+        <audio id="audioPlayer" controls>
+            <source src="" type="audio/mp3">
+            Tu navegador no soporta la etiqueta de audio.
+        </audio>
+        <button id="playPauseBtn">Play</button>
+        <button id="stopBtn">Stop</button>
+        <button id="prevBtn">Prev</button>
+        <button id="nextBtn">Next</button>
+        <button id="repeatBtn">Repeat</button>
+        <button id="shuffleBtn">Shuffle</button>
+        <input type="range" id="seekBar" value="0">
+
+        <label for="songList">Selecciona una canción:</label>
+        <select id="songList"></select>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
